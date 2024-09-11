@@ -20,23 +20,36 @@
     <main>
         <section id="about">
             <h2>Sobre el Proyecto</h2>
-            <p>Descripción del proyecto...</p>
-            <img src="imagen1.jpg" alt="Descripción de la imagen 1">
+            <h3>¡¡Unete a esta fantastica aventura!!</h3>
+            <img src="Imagen1.jpeg" alt="FERIA DE CARTON"  width="600" height="500">
+            <h1>¡Atención estudiantes y docentes! 🌟</h1>
+            <p>¡Ha llegado la oportunidad que estaban esperando! 🎉 Los invitamos a participar en una <span class="highlight">competencia intercolegiada única</span> que pondrá a prueba su creatividad y trabajo en equipo. En esta emocionante competencia, <strong>cada salón se dividirá en 10 grupos</strong>, con la cantidad de estudiantes necesaria para llenar esos 10 equipos, ¡para construir proyectos innovadores usando solo cartón! 📦✨</p>
+            
+            <p>El equipo ganador de cada colegio tendrá el honor de asistir a una <span class="highlight">capacitación exclusiva en el Jardín Botánico de Cartagena</span>, donde aprenderán sobre sostenibilidad, naturaleza y mucho más. 🌱🌿 Pero eso no es todo, ¡no irán solos! Toda la clase, junto con <span class="important">dos directivos, dos docentes y dos padres de familia</span>, estarán invitados a vivir esta experiencia inolvidable. 🏆👩‍🏫👨‍👩‍👧‍👦</p>
+            
+            <p>Además, los proyectos que no sean seleccionados no quedarán en el olvido: <span class="highlight">¡serán donados para contribuir a una noble causa!</span> ❤️</p>
+            
+            <p>Prepárense para competir, crear y aprender en una aventura que no querrán perderse. ¡Inscríbanse ahora y demuestren de qué están hechos! 💪📚</p>
+            
+            <h2><span class="highlight">¡La creatividad no tiene límites!</span></h2>
         </section>
         <section id="activities">
             <h2>Actividades</h2>
-            <p>Descripción de las actividades...</p>
-            <img src="imagen2.jpg" alt="Descripción de la imagen 2">
+            <p>En este apartado estaremos avisando las Actividades a comenzar en esta fabulosa aventura</p>
+            <img src="Imagen2.jpeg" alt="Descripción de la imagen 2"  width="600" height="500">
         </section>
         <section id="signup">
             <h2>Inscripción</h2>
-            <form id="signup-form">
-                <label for="school-name">Nombre del Colegio:</label>
-                <input type="text" id="school-name" name="school-name" required>
-                <label for="email">Correo Electrónico:</label>
-                <input type="email" id="email" name="email" required>
+            <form id="signup-form" onsubmit="redirectToLink(event)">
                 <button type="submit">Inscribirse</button>
             </form>
+        
+            <script>
+                function redirectToLink(event) {
+                    event.preventDefault();  // Evita que el formulario se envíe
+                    window.location.href = "https://forms.office.com/r/fM2FuqWMxC";  // Redirige al enlace
+                }
+            </script>
         </section>
     </main>
     <footer>
